@@ -1,0 +1,96 @@
+@media (width <= 375px) {
+
+  /* HEADERR STYLES START */
+
+  .header {
+    padding: 10px;
+  }
+
+  .header__theme-menu-list {
+    padding: 5px 0 0 0;
+  }
+
+  .header__title {
+    font-size: clamp(7.25rem, 7.0102rem + 1.0204vw, 7.5rem);
+   
+  }
+
+  .header__subtitle {
+    margin-block-start: 56px;
+    inline-size: 355px;
+  }
+
+  .decorated-zone::after {
+    inset-block-end: 10px;
+    inset-inline-start: 10px;
+  }
+
+  .decorated-zone::before {
+    inset-block-start: 10px;
+    inset-inline-end: 10px;
+  }
+
+  .rec {
+    inset-block-start: 10px;
+    inset-inline-end: 39px;
+  }
+
+  .rec::after {
+    inset-block: 3px;
+    inset-inline-end:-26px;
+  } 
+
+  /* HEADER STYLES END  */
+
+  /* WHY-HARD STYLES START */
+  
+  .grid-column-section {
+    display: block;
+    padding: 40px 10px 0;
+  }
+
+  .why-hard {
+    padding: 40px 10px 0;
+  }
+
+  .section-title {
+    inline-size: 100%;
+  }
+
+  /* WHY-HARD STYLES END */
+
+  /* CONCENTRATION STYLES START */
+
+  .concentration {
+    padding: 50px 10px;
+  }
+
+   /* CONCENTRATION STYLES END */
+
+   /* RULES STYLES START */
+
+   .rules {
+    padding: 0 10px 50px;
+   }
+   /* RULES STYLES END */
+
+   .gallery {
+    padding: 0 10px 30px;
+   }
+
+   .gallery__title {
+    margin-block-end: 10px;
+   }
+
+   .gallery__list {
+    display: block;
+   }
+
+   .gallery__list-item {
+    margin-block-end: 6px;
+   }
+
+   .footer {
+    padding: 10px;
+   }
+}
