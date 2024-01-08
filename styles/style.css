@@ -14,12 +14,12 @@
 .header {
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
-  min-block-size: 100vb;
+  block-size: 100vb;
   padding: 20px;
 }
 .decorated-zone {
   position: relative;
-  min-block-size: 100vb;
+  min-block-size: 375px;
 }
 
 .decorated-zone::before {
@@ -282,7 +282,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-block-size: 100vb;
+  block-size: 100vb;
   padding: 20px;
 }
 
