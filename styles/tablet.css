@@ -1,5 +1,4 @@
 @media (width <= 768px) {
-
   /*HEADER STYLES START */
 
   .header__theme-menu {
@@ -14,14 +13,13 @@
   }
 
   .header__subtitle {
-    min-block-size: 117px;
-    inline-size: 364px;
-    margin-block-start: 162px;
+    inline-size: 100%;
+    max-inline-size: 364px;
   }
 
-   /*HEADER STYLES END */
+  /*HEADER STYLES END */
 
-/* WHY-HARD STYLES START */
+  /* WHY-HARD STYLES START */
 
   .grid-column-section {
     grid-template-columns: minmax(min-content, 236px) minmax(50%, 1fr);
@@ -31,8 +29,7 @@
   /* WHY-HARD STYLES END */
 
   /* CONCENTRATION STYLES START */
-  
- 
+
   .concentration__list {
     display: initial;
   }

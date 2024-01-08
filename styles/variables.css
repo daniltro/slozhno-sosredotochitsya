@@ -12,4 +12,6 @@
   --text-shadow-color: #ff0070;
   --hover-outline-color: rgba(255, 0, 112, 0.4);
   --hover-text-color: #ff0070;
+  --bg-page: url(../images/cover-image-dark.png);
+  --focus-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
 }
