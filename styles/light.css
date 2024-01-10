@@ -25,9 +25,6 @@
   display: none;
 }
 
-.theme_auto .rec {
-  display: none;
-}
 
 @media (prefers-color-scheme: light) {
   .page {
@@ -42,4 +39,9 @@
     --hover-text-color: #353430;
     --bg-page:  url(../images/cover-image-light.png);
   }
+
+  .theme_auto .rec {
+    display: none;
+  }
+  
 }
