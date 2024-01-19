@@ -2,7 +2,7 @@
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
   background: var(--bg-page);
-  background-color: var(--bg-page-color, 000028);
+  background-color: var(--bg-page-color, #000028);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
