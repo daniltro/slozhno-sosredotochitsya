@@ -32,6 +32,7 @@
     --text-shadow-color: #ff0070;
     --hover-outline-color: rgba(255, 0, 112, 0.4);
     --hover-text-color: #ff0070;
+    background-color: var(--bg-page-color, #000028);
   }
 }
 

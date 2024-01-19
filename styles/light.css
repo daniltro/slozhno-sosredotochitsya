@@ -19,6 +19,7 @@
   --hover-outline-color: rgba(50, 49, 45, 0.4);
   --hover-text-color: #353430;
   --bg-page:  url(../images/cover-image-light.png);
+  --bg-page-color: #FFF1F7;
 }
 
 .theme_light .rec {
@@ -38,6 +39,7 @@
     --hover-outline-color: rgba(50, 49, 45, 0.4);
     --hover-text-color: #353430;
     --bg-page:  url(../images/cover-image-light.png);
+    --bg-page-color: #FFF1F7;
   }
 
   .theme_auto .rec {
